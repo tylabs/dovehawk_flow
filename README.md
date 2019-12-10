@@ -1,6 +1,6 @@
-# Dovehawk.io Anonimized Outgoing Flow Collector Module for Zeek
+# Dovehawk.io Anonymized Outgoing Flow Collector Module for Zeek
 
-This module colects outgoing flow counts to external IPs across an entire Cluster or Standalone Zeek instance.  The local source IPs are not tracked and SUMSTATS is used to sum multiple requests over a specified time period anonymizing and grouping the requests across the entire network.
+This module collects outgoing flow counts to external IPs across an entire Cluster or Standalone Zeek instance.  The local source IPs are not tracked and SUMSTATS is used to sum multiple requests over a specified time period anonymizing and grouping the requests across the entire network.
 
 Local hostnames are stripped to further anonymize the data for external sharing.
 
