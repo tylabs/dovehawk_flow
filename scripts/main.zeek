@@ -1,10 +1,10 @@
-# Dovehawk.io Anonymized Outbound Flow Module v1.0.0 2019 08 02
+# Dovehawk.io Anonymized Outbound Flow Module v1.1.0 2020 03 21
 
 @load base/utils/site
 @load base/frameworks/sumstats
 @load base/utils/directions-and-hosts
 
-@load ../config.bro
+@load ../config
 
 module dovehawk_flow;
 
@@ -55,14 +55,8 @@ function send_json(json: string) {
 	
 }
 
-@if( /^2\./ in bro_version() )
-
-event bro_init() &priority=5
-	{
-@else
 event zeek_init() &priority=5
 	{
-@endif
 
 	local rec: dovehawk_flow::Info;
 
