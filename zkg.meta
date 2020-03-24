@@ -1,4 +1,4 @@
 [package]
 description = Dovehawk Anonymized Outbound Flow Tracking
 tags = netflow, connections, log, remote, dovehawk
-script_dir = ./scripts/
+script_dir = ./
