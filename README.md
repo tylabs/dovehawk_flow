@@ -32,5 +32,5 @@ See [dovehawk_lambda](https://github.com/tylabs/dovehawk_lambda) for an AWS Lamb
 
 ## Contact
 
-Tyler McLellan [@tylabs](https://twitter.com/tylabs)
+[@tylabs](https://twitter.com/tylabs)
 
